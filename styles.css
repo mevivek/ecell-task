@@ -1,0 +1,87 @@
+body {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+ul {
+    list-style-type: none;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3CA3F0;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.nav {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 0.5em;
+    text-decoration: none;
+}
+
+.nav-box1 {
+
+    float: right;
+    background-color: #3A9CD9;
+    
+}
+.nav-box2 {
+    float: right;
+    outline-width: 2px;
+    outline-color: white;
+    outline-style: solid;
+    outline-offset: -5px;
+
+}
+.fa {
+    margin-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.explore {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    
+
+.button1 {
+    color: white;
+    background-color: #3CA3F0;
+    border: 2px solid #3CA3F0;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.button2 {
+    color: white;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+
+.background {
+    width: 100%;
+    height: 100%;
+}
